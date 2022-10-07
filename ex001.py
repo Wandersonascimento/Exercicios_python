@@ -1,3 +1,3 @@
 print("Olá, Mundo!")
-msg = 'Olá, Mundo!'
+msg = 'Hello, World!'
 print(msg)
