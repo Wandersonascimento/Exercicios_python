@@ -1,0 +1,10 @@
+# criar um algoritimo que leia o preço de um produto e mostre seu niovo preço, com 5% de desconto
+print('Desafio 012\n')
+print('{:*^50}\n'.format(' Bem vindo ao propgrama de desconto '))
+preço = float(input('Informe o valor do produto: R$ '))
+desconto = float(input("Informe o valor do desconto: "))
+novo = preço - (preço * desconto / 100)
+print('O valor do desconto de {}%, é R$ {:.2f}'.format(desconto, (preço * desconto / 100)))
+print('O Valor total com o desconte de {}% é: R$ {:.2f}'.format(desconto, novo))
+print('-' * 50)
+print('{:*^50}'.format(' Final de Programa '))
